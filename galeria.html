@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>..::Albúm do Amor::..</title>
+</head>
+
+<style>
+    body {
+        background-image: url(image/background.png);
+        background-size: cover;
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cabecalho img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .container{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .galeria{
+        display: flex;
+        width: 740px;
+        height: 500px;
+        border: 20px solid transparent;
+        border-image: url(image/borda.png) 30 round;
+        margin-bottom: 6%;
+        margin-top: 2%;
+    }
+
+    .galeria img {
+        min-width: 0;
+        flex: 1 1 10px;
+        object-fit: cover;
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+
+    .galeria img:hover {
+        flex: 1 1 280px;
+        opacity: 1;
+    }
+
+    .galeria video {
+    min-width: 0;
+    flex: 1 1 10px;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.5s;
+    max-height: 100%;
+}
+
+.galeria video:hover {
+    flex: 1 1 280px;
+    opacity: 1;
+}
+
+</style>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="image/coracao2.png" alt="icone">
+            <img src="image/jornada.png" alt="icone">
+            <img src="image/coracao.png" alt="icone">
+        </div>
+    </header>
+    <div class="container">
+
+    <div class="galeria">
+        <img src="image/IMG-20240812-WA0047.png" alt="">
+        <img src="image/IMG-20240815-WA0163.png" alt="">
+        <img src="image/IMG-20240815-WA0190.png" alt="">
+        <img src="image/IMG-20240815-WA0192.png" alt="">
+        <img src="image/IMG-20240815-WA0193.png" alt="">
+    </div>
+
+    <div class="galeria">
+        <img src="image/IMG-20240816-WA0075.png" alt="">
+        <img src="image/IMG-20240816-WA0076.png" alt="">
+        <img src="image/IMG_20240815_193712_414.png" alt="">
+        <img src="image/IMG-20240816-WA0078.png" alt="">
+        <img src="image/IMG-20240816-WA0079.png" alt="">
+    </div>
+
+    <div class="galeria">
+        <img src="image/IMG-20240816-WA0080.png" alt="">
+        <img src="image/IMG-20240816-WA0083.jpg" alt="">
+        <img src="image/IMG-20240820-WA0009.jpg" alt="">
+        <img src="image/IMG-20240820-WA0010.jpg" alt="">
+        <img src="image/IMG-20240820-WA0011.jpg" alt="">
+    </div>
+
+    <div class="galeria">
+        <img src="image/IMG-20240820-WA0012.jpg" alt="">
+        <img src="image/Imagem do WhatsApp de 2024-08-23 à(s) 21.12.53_ebde9653.jpg" alt="">
+        <img src="image/Imagem do WhatsApp de 2024-08-20 à(s) 21.28.37_ce5ce197.jpg" alt="">
+        <img src="image/Imagem do WhatsApp de 2024-08-23 à(s) 21.12.54_375f3e12.jpg" alt="">
+        <video src="image/Vídeo do WhatsApp de 2024-08-23 à(s) 21.22.28_4d1259df.mp4" autoplay controls muted></video>
+    </div>
+
+</div>
+</body>
+
+</html>
